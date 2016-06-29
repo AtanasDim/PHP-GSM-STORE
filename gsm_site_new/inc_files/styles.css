@@ -1,0 +1,11 @@
+#top{height:105px; width:100%; padding-top:17px; padding-bottom:3px ; border-bottom:2px solid #446633; background:url('../img/bg.png') repeat-x; color:#231111;}
+
+#left{width:10%; float:left; min-height:400px; padding-top:3px;}
+
+#content{width:90%; min-height:400px; padding-top:6px; margin:0 auto;}
+
+#bottom{width:500px; height:70px; background:#B8B8B8 ; color:#231111; position:fixed; bottom:0;}
+
+.image{
+	 float:left;
+}

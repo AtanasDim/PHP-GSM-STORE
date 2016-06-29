@@ -1,0 +1,13 @@
+<div id="left">
+&nbsp<a href=".">Начало</a> <br>
+&nbsp<a href="list_models.php" title="Списък на телефони">Списък</a> <br>
+
+<?php
+if (isset($_SESSION["username"]))
+	if ($_SESSION["usertype"]==1)
+{?>
+
+&nbsp;<a href="insert_gsm.php" title="Въвеждане на данни за GSM">Добавяне</a> <br>
+&nbsp;<a href="logout.php">Изход</a> <br>
+<?php }?>
+</div>

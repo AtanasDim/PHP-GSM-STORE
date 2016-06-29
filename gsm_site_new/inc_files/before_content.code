@@ -1,0 +1,11 @@
+<?php session_start();error_reporting(E_ALL & ~E_NOTICE); $dbName="gsm_1088-1";?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>"Мобилни телефони"</title>
+<link href="inc_files/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ <?php include "inc_files/top.php"; ?>
+ <?php include "inc_files/left.div"; ?>
